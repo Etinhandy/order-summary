@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page-holder {
+    background: url(../images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+ .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ }
+
+
+.card {
+    width: 25%;
+    height: 30rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.card-image {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.order-area {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.order-area p {
+    font-weight: lighter;
+    color: hsl(224, 23%, 55%);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.annual {
+    display: flex;
+    justify-content: center;
+}
+
+.annual-text {
+    display: flex;;
+    background: hsl(225, 100%, 98%);
+    width: 90%;
+    border-radius: 10px;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 6rem 0 1rem;
+}
+
+.msg p {
+    font-size: 0.8rem;
+    color: hsl(224, 23%, 55%);
+}
+
+h2 {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.change {
+    display: flex;
+    align-items: center;
+}
+
+.change a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+button {
+    width: 80%;
+    height: 2.3rem;
+    border-radius: 10px;
+    background-color: hsl(245, 97%, 46%);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    box-shadow: 0px 15px 30px -15px
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+    transition: 1s;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.btn a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-device-width: 425px) {
+
+    #page-holder {
+        background: url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+    }
+    .card {
+        width: 80%;
+        height: auto;
+    }
+
+    .msg {
+        margin: 0 3rem 0 0.7rem;
+    }.order-area p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .attribution {
+        font-size: 0.7rem;
+    }
+}
