@@ -141,6 +141,7 @@ button:hover {
     color: hsl(223, 47%, 23%);
 }
 
+
 @media (max-device-width: 425px) {
 
     #page-holder {
@@ -153,7 +154,8 @@ button:hover {
 
     .msg {
         margin: 0 3rem 0 0.7rem;
-    }.order-area p {
+    }
+    .order-area p {
         font-size: 0.9rem;
         padding: 0 1rem;
     }

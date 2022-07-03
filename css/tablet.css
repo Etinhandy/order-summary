@@ -1,0 +1,38 @@
+
+@media(max-width: 768px) {
+    #page-holder {
+        width: 100%;
+    }
+    .card {
+        width: 40%;
+        height: 30rem;
+    }
+
+
+    .msg {
+        margin: 0 5rem 0 0.7rem;
+    }
+}
+
+@media (max-device-width: 425px) {
+
+    #page-holder {
+        background: url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+    }
+    .card {
+        width: 80%;
+        height: 30rem;
+    }
+
+    .msg {
+        margin: 0 3rem 0 0.7rem;
+    }
+    .order-area p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .attribution {
+        font-size: 0.7rem;
+    }
+}
