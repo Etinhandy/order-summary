@@ -140,27 +140,3 @@ button:hover {
     text-decoration: none;
     color: hsl(223, 47%, 23%);
 }
-
-
-@media (max-device-width: 425px) {
-
-    #page-holder {
-        background: url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
-    }
-    .card {
-        width: 80%;
-        height: auto;
-    }
-
-    .msg {
-        margin: 0 3rem 0 0.7rem;
-    }
-    .order-area p {
-        font-size: 0.9rem;
-        padding: 0 1rem;
-    }
-
-    .attribution {
-        font-size: 0.7rem;
-    }
-}
